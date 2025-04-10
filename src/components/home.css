@@ -1,0 +1,102 @@
+/* Importando a fonte Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Estilo global */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #1e2a38; /* azul marinho mais claro */
+  color: #fff;
+}
+
+/* Seção hero */
+.hero {
+  background-color: #1e2a38; /* azul marinho mais claro */
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero_conteudo h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero_conteudo .btn {
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  background-color: #4b8cd7;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.hero_conteudo .btn:hover {
+  background-color: #3a6fb7;
+}
+
+/* Seção Nossos serviços */
+.hero2 {
+  background-color: #243140; /* Tom mais escuro do azul */
+  padding: 3rem 2rem;
+}
+
+.hero2 h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.servicos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.servicos img {
+  max-width: 120px;
+}
+
+.servicos h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.servicos p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Seção Sobre a S&F Tech */
+.hero3 {
+  background-color: #1e2a38; /* azul marinho mais claro */
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero3 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero3 p {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.quadrado {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-color: #4b8cd7;
+  color: white;
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0
+}
